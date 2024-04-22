@@ -230,6 +230,34 @@ footer {
     display: none;
     text-align: center;
 }
+#visitForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+}
+
+#visitForm label {
+    grid-column: 1;
+}
+
+#visitForm input,
+#visitForm textarea {
+    grid-column: 1;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#visitForm button {
+    grid-column: 1;
+    padding: 10px 20px;
+}
+
+#thankYouMessage {
+    display: none;
+    text-align: center;
+}
 #visitorForm {
     max-width: 500px;
     margin: 0 auto; 

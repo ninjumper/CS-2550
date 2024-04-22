@@ -1,5 +1,6 @@
 
 
+export const form = document.getElementById("visitorForm");
 export function checkRequired(fieldId) {
     const fieldValue = form.elements[fieldId].value.trim();
     if (fieldValue === "") {
